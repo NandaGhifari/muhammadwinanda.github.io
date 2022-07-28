@@ -8,7 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Muhammad Winanda</title>
+    
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>MW</title>
   </head>
   <body style="background-color: #d2d6da;">
     <div class="container-fluid px-0">
@@ -49,14 +53,20 @@
           <!-- about me -->
           <section id="about" style="padding-top: 5rem;">
             <div class="container">
-              <h1 class="text-center pb-2">About Me</h1>
+              <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                <h1 class="text-center pb-2">About Me</h1>
+              </div>
               <div class="row justify-content-center mx-3">
                 <div class="col-sm-4">
+                  <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae saepe molestiae quaerat est possimus. Harum dolore molestiae laboriosam nobis accusamus blanditiis tempora quos doloremque?</p>
-                </div>
+                  </div>
+              </div>            
                 <div class="col-sm-4">
+                  <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="600">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eligendi corporis repellendus nemo ea dolor sapiente atque id quidem iure adipisci dolorem veniam fuga minima cum repudiandae nam impedit, quisquam deserunt libero odio quod? At!</p>
-                </div>
+                  </div>
+              </div>
               </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#28a86c" fill-opacity="0.5" d="M0,128L21.8,128C43.6,128,87,128,131,144C174.5,160,218,192,262,218.7C305.5,245,349,267,393,261.3C436.4,256,480,224,524,202.7C567.3,181,611,171,655,165.3C698.2,160,742,160,785,176C829.1,192,873,224,916,229.3C960,235,1004,213,1047,192C1090.9,171,1135,149,1178,154.7C1221.8,160,1265,192,1309,202.7C1352.7,213,1396,203,1418,197.3L1440,192L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
@@ -66,9 +76,11 @@
           <!-- project -->
           <section id="project" style="background-color:#28a86c; opacity: 0.5; padding-top: 5rem;">
             <div class="container fw-bold">
+              <div data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">
               <h1 class="text-center pb-2">My Project</h1>
+              </div>
               <div class="row row-cols-1 row-cols-sm-3 g-4">
-                <div class="col">
+                <div class="col myProject">
                   <div class="card h-100">
                     <img src="image/project/gambar-1.jpg" class="card-img-top" alt="Frond End" width="400">
                     <div class="card-body">
@@ -80,7 +92,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col myProject">
                   <div class="card h-100">
                     <img src="image/project/gambar-2.jpg" class="card-img-top" alt="Back End" width="400">
                     <div class="card-body">
@@ -92,7 +104,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col myProject">
                   <div class="card h-100">
                     <img src="image/project/gambar-3.jpg" class="card-img-top" alt="Digital Marketing" width="400">
                     <div class="card-body">
@@ -113,8 +125,10 @@
           <!-- message -->
           <section id="contact" style="padding-top: 4rem;">
             <div class="container">
+              <div data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
               <div class="row justify-content-center">
                 <h1 class="text-center">Contact Me</h1>
+              
                 <!-- alert -->
                 <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
                   <strong>Terima Kasih,</strong> Pesan Anda telah kami terima <i class="bi bi-emoji-smile"></i>
@@ -142,17 +156,22 @@
                 </form>
               </div>
             </div>
+            </div>
+            </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#28a86c" fill-opacity="0.5" d="M0,320L26.7,282.7C53.3,245,107,171,160,149.3C213.3,128,267,160,320,165.3C373.3,171,427,149,480,165.3C533.3,181,587,235,640,229.3C693.3,224,747,160,800,144C853.3,128,907,160,960,181.3C1013.3,203,1067,213,1120,213.3C1173.3,213,1227,203,1280,197.3C1333.3,192,1387,192,1413,192L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
           </section>
           <!-- message -->
 
           <!-- footer -->
-          <footer style="background-color:#28a86c; opacity: 0.5; padding-top: 0rem;">
+          <footer style="background-color:#28a86c; padding: 1rem 0;">
             <div class="container">
               <div class="row">
                 <a href="https://www.instagram.com/winanda_m" class="text-reset" style="text-decoration: none;">
                   <h6 class="text-center fw-bold">CV. Nanda Karya Mandiri</h6>
                 </a>
+              </div>
+              <div class="row">
+                <h6>bagian sosmed</h6>
               </div>
             </div>
             <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d2d6da" fill-opacity="0.5" d="M0,128L26.7,144C53.3,160,107,192,160,213.3C213.3,235,267,245,320,224C373.3,203,427,149,480,122.7C533.3,96,587,96,640,122.7C693.3,149,747,203,800,197.3C853.3,192,907,128,960,96C1013.3,64,1067,64,1120,74.7C1173.3,85,1227,107,1280,149.3C1333.3,192,1387,256,1413,288L1440,320L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg> -->
@@ -173,6 +192,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const myProjects = document.querySelectorAll('.myProject');
+      myProjects.forEach((img, i) => {
+        img.dataset.aos = 'zoom-out';
+        img.dataset.aosDelay = i * 500;
+        img.dataset.aosDuration = 1000;
+      })
+
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzqqj-bXshfsRsBTNCT3RQXJ484XJNZPWmzNc1fS5ai2dEHVmmAu1h2B3sVYIMMq-pO/exec'
