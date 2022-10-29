@@ -1,0 +1,33 @@
+[
+    { "menu" : 
+        {
+            "home" : "Home",
+            "about" : "About me",
+            "project" : "Project",
+            "contact" : "Contact me"
+        }
+    },
+    { "about" :
+        {
+            "aboutMe" : "About Me",
+            "paragraph" : "Hay people, brief for introduction my self <br> I have had a career in IT since college in 2014, and now I work in a state owned company in Indonesia of logistics and money services. <br> If you want my services, it can help you build your dream website for business or other things and we can learn together with the help of cloud services <br> You can connect with me with the social media link below, and thank you if you have read my writing !!" 
+        }
+    },
+    { "project" : 
+        {
+            "projectMe" : "My Project",
+            "projectTitle" : ["WEB Developer", "Animation for Website"],
+            "projectText" : ["Web developers need programming languages in creating. development is two things, first is the frond end and second is the back end. <br> Image of the side, you can understand the programming language and its function.", "You can add animations to your website for better UI/UX. Portfolio of my website, using libraries and platforms such as AOS, GSAP, getwaves.io"],
+            "projectTime" : "Last updated 3 mins ago"
+        }
+    },
+    { "contact" : 
+        {
+            "contactMe" : "Contact Me",
+            "LName" : "Name",
+            "LEmail" : "Email addres",
+            "LMessage" : "Message",
+            "my-alert" : "<strong>Thanks,</strong> your message I have received"
+        }
+    }
+]

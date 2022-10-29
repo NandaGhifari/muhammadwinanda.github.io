@@ -12,11 +12,17 @@
     <!-- animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="js/view.js"></script>
+    <!-- <script src="js/bahasa.json"></script> -->
 
     <title>MW</title>
   </head>
@@ -24,25 +30,31 @@
     <div class="container-fluid px-0">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #6998ff">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#home" style="color: #2e85ff;">MW
-                <!-- <img src="image/m_logo.png" class="img-thumbnail rounded-circle" style="background-image:none !important;" width="150px" alt="logo"> -->
-              </a>
+              <a class="navbar-brand" href="#home" style="color: #2e85ff;">MW</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                  
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link england" onclick="eng()" href="#"><img src="image/flag/england.png" alt="england" style="height: 35px; padding: 0px 20px 0 0;"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
+                    <a class="nav-link indonesia" onclick="indo()" href="#"><img src="image/flag/indonesia.png" alt="indonesia" style="height: 35px; padding: 0px 20px 0 0;"></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active home" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#project">Project</a>
+                    <a class="nav-link about" href="#about">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact me</a>
+                    <a class="nav-link project" href="#project">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link contact" href="#contact">Contact me</a>
                   </li>
                 </ul>
               </div>
@@ -63,26 +75,24 @@
           <section id="about" style="padding: 4rem 0 3rem 0; background-color:#aebfff;">
             <div class="container">
               <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-                <h1 class="text-center pb-2">About Me</h1>
+                <h1 class="text-center pb-2 aboutMe">About Me</h1>
               </div>
-              <div class="row justify-content-center mx-3">
-                <div class="col-sm-4 textME ">
+              <div class="row justify-content-center">
+                <div class="col-sm-6 d-flex align-items-center">
                   <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                  <p style="text-align: justify;">Hay people, brief for introduction my self <i class="bi bi-emoji-smile-fill"></i>
+                  <p style="text-align: justify;" class="paragraph">Hay people, brief for introduction my self <i class="bi bi-emoji-smile-fill"></i>
                     <br>
                     I have had a career in IT since college in 2014, and now I work in a state owned company in Indonesia of logistics and money services.
                     <br>
                     If you want my services, it can help you build your dream website for business or other things and we can learn together with the help of cloud services.
                     <br>
-                    Later, I learned a letter of documentation as a consultant such as a business continuity plan.
-                    <br>
                     You can connect with me with the social media link below, and thank you if you have read my writing !!
                   </p>
                   </div>
                 </div>            
-                <div class="col-sm-4 imgME text-center">
+                <div class="col-sm-6  d-flex align-items-center imgME">
                   <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="600">
-                  <p>Image</p>
+                  <img src="image/mp4/gif-about.gif" alt="img-about" class="img-thumbnail rounded-3" style="height: 100%;">
                   </div>
                 </div>
               </div>
@@ -103,7 +113,7 @@
           <section id="project" style="background-color:#cbd4ff; padding: 4rem 0 3rem 0;">
             <div class="container fw-bold">
               <div data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">
-              <h1 class="text-center pb-2">My Project</h1>
+              <h1 class="text-center pb-2 projectMe">My Project</h1>
               </div>
               
               <div class="row mt-5">
@@ -114,12 +124,12 @@
                     </div>
                     <div class="col-md-9 col-right">
                       <div class="card-body gs_reveal">
-                        <h5 class="card-title">WEB Developer</h5>
-                        <p class="card-text">Web developers need programming languages in creating. development is two things, first is the frond end and second is the back end.
+                        <h5 class="card-title project-title">WEB Developer</h5>
+                        <p class="card-text project-text">Web developers need programming languages in creating. development is two things, first is the frond end and second is the back end.
                           <br>
-                          From the existing image, you can understand the programming language and its function.
+                           Image of the side, you can understand the programming language and its function.
                         </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text project-time"><small class="text-muted">Last updated 3 mins ago</small></p>
                       </div>
                     </div>
                   </div>
@@ -131,13 +141,13 @@
                   <div class="row g-0" style="min-height: 200px;">
                     <div class="col-md-9 gs_reveal col-left">
                       <div class="card-body gs_reveal">
-                        <h5 class="card-title">Animation for Website</h5>
-                        <p class="card-text">You can add animations to your website for better UI/UX. Portfolio of my website, using libraries and platforms such as AOS, GSAP, getwaves.io, </p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title project-title1">Animation for Website</h5>
+                        <p class="card-text project-text1">You can add animations to your website for better UI/UX. Portfolio of my website, using libraries and platforms such as AOS, GSAP, getwaves.io </p>
+                        <p class="card-text project-time1"><small class="text-muted">Last updated 3 mins ago</small></p>
                       </div>
                     </div>
                     <div class="col-md-3 d-flex justify-content-end gs_reveal col-right p-1">
-                      <img src="/image/mp4/animation-2.gif" style="max-height: 200px; width: 90%;" class="img-fluid rounded-start" alt="...">
+                      <img src="image/mp4/animation-2.gif" style="max-height: 200px; width: 90%;" class="img-fluid rounded-start" alt="...">
                     </div>
                   </div>
                 </div>
@@ -154,25 +164,25 @@
             <div class="container">
               <div data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
               <div class="row justify-content-center">
-                <h1 class="text-center">Contact Me</h1>
+                <h1 class="text-center contactMe">Contact Me</h1>
               
                 <!-- alert -->
                 <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
-                  <strong>Terima Kasih,</strong> Pesan Anda telah kami terima <i class="bi bi-emoji-smile"></i>
+                  <strong>Thanks,</strong> your message I have received <i class="bi bi-emoji-smile"></i>
                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <!-- alert -->
                 <form name="submit-to-google-sheet" class="col-sm-8">
                   <div class="mb-3">
-                    <label for="username" class="form-label">Name</label>
+                    <label for="username" class="form-label LName">Name</label>
                     <input type="text" class="form-control" id="username" name="name" aria-describedby="username" required>
                   </div>                  
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <label for="exampleInputEmail1" class="form-label LEmail">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" required>
                   </div>               
                   <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
+                    <label for="message" class="form-label LMessage">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                   </div>   
                   <button type="submit" class="btn btn-primary btn-submit">Submit</button>
