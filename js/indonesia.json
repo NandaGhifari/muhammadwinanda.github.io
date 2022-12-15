@@ -3,22 +3,24 @@
         {
             "home" : "Beranda",
             "about" : "Tentang Saya",
-            "project" : "Projek",
+            "skill" : "Keahlian Saya",
             "contact" : "Kontak Saya"
         }
     },
     { "about" :
         {
             "aboutMe" : "Tentang Saya",
-            "paragraph" : "Hay kalian, saya ingin perkenalkan diri secara ringkas <br> Saya telah berkarir di bidang IT sejak kuliah pada tahun 2014, dan sekarang saya bekerja di sebuah perusahaan milik negara di Indonesia di bidang logistik dan jasa keuangan. <br> Jika kamu ingin jasa saya, ini dapat membantu Anda membangun website impian mu untuk bisnis atau hal lain dan kita dapat belajar bersama dengan bantuan layanan peramban. <br> Kamu dapat terhubung dengan saya dengan tautan media sosial di bawah ini, dan terima kasih jika kamu telah membaca tulisan saya !!" 
+            "dialog" : "Lebih kenal dengan saya, ijinkan saya bercerita",
+            "clickMe" : "Tampil",
+            "intro" : "Hay kalian, saya ingin perkenalkan diri secara ringkas <br> Saya telah berkarir di bidang IT sejak kuliah pada tahun 2014, dan sekarang saya bekerja di sebuah perusahaan milik negara di Indonesia di bidang logistik dan jasa keuangan. <br> Jika kamu ingin jasa saya, ini dapat membantu Anda membangun website impian mu untuk bisnis atau hal lain dan kita dapat belajar bersama dengan bantuan layanan peramban. <br> Kamu dapat terhubung dengan saya dengan tautan media sosial di bawah ini, dan terima kasih jika kamu telah membaca tulisan saya." 
         }
     },
-    { "project" : 
+    { "skill" : 
         {
-            "projectMe" : "Projek Saya",
-            "projectTitle" : ["Pengembang Web", "Animasi pada Website"],
-            "projectText" : ["Pengembang web membutuhkan bahasa pemrograman dalam pembuatan. Pengembangan adalah dua hal, pertama adalah bagian depan (user) dan kedua adalah bagian belakang (admin). <br> Gambar di samping, Anda bisa memahami bahasa pemrograman dan fungsinya.", "Anda dapat menambahkan animasi ke situs web Anda untuk UI/UX yang lebih baik. Portofolio situs web saya, menggunakan pustaka dan platform seperti AOS, GSAP, getwaves.io"],
-            "projectTime" : "Terakhir pembaruan 3 menit lalu"
+            "skillMe" : "Keahlian Saya",
+            "skillTitle" : ["Pengembang Web", "Animasi pada Website","Bangun Halaman Responsif"],
+            "skillText" : ["Pengembang web membutuhkan bahasa pemrograman dalam pembuatan. Pengembangan adalah dua hal, pertama adalah bagian depan (user) dan kedua adalah bagian belakang (admin). <br> Gambar di samping, Anda bisa memahami bahasa pemrograman dan fungsinya.", "Anda dapat menambahkan animasi ke situs web Anda untuk UI/UX yang lebih baik. Portofolio situs web saya, menggunakan pustaka dan platform seperti AOS, GSAP, getwaves.io","Teknik atau cara pembuatan layout halaman bertujuan untuk menyesuaikan dengan ukuran layar pengguna. Baik itu ukuran font, user interface, gambar, dan layout akan menyesuaikan dengan layar yang digunakan."],
+            "skillTime" : "Terakhir pembaruan 3 menit lalu"
         }
     },
     { "contact" : 
