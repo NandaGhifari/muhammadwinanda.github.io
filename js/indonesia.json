@@ -20,7 +20,7 @@
             "skillMe" : "Keahlian Saya",
             "skillTitle" : ["Pengembang Web", "Animasi pada Website","Bangun Halaman Responsif"],
             "skillText" : ["Pengembang web membutuhkan bahasa pemrograman dalam pembuatan. Pengembangan adalah dua hal, pertama adalah bagian depan (user) dan kedua adalah bagian belakang (admin). <br> Gambar di samping, Anda bisa memahami bahasa pemrograman dan fungsinya.", "Anda dapat menambahkan animasi ke situs web Anda untuk UI/UX yang lebih baik. Portofolio situs web saya, menggunakan pustaka dan platform seperti AOS, GSAP, getwaves.io","Teknik atau cara pembuatan layout halaman bertujuan untuk menyesuaikan dengan ukuran layar pengguna. Baik itu ukuran font, user interface, gambar, dan layout akan menyesuaikan dengan layar yang digunakan."],
-            "skillTime" : "Terakhir pembaruan 3 menit lalu"
+            "skillAView" : ["CSS digunakan untuk mendefinisikan tampilan dokumen HTML serta memisahkan dari struktur dokumen termasuk element seperti layout, warna dan font. Dengan CSS, dokumen HTML lebih menarik dan mudah dibaca.","Bootstrap adalah komponen UI untuk membuat tata letak responsif dengan mudah dan cepat menggunakan HTML, CSS dan JavaScript.","Tailwind adalah sistem desain yang di implementasikan dalam CSS murni. Menurut opini saya, Tailwind mempersingkat tulisan dari CSS murni dengan di implementasikan pada class di element HTML."]
         }
     },
     { "contact" : 

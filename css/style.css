@@ -5,6 +5,11 @@
     --cFour: #cbd4ff;
     --cFive: #e5e9ff;
 }
+.control:hover {
+  /* border-color : red; */
+  box-shadow : 0 0 0 0.2rem rgba(44, 64, 169, 0.25);
+  font-style: italic;
+}
 
 body{
     color: black;
