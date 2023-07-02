@@ -25,13 +25,22 @@ const indo = () => {
     document.querySelector("h5.skill-title").innerHTML = indonesia[2]["skill"]["skillTitle"][0];
     document.querySelector("h5.skill-title1").innerHTML = indonesia[2]["skill"]["skillTitle"][1];
     document.querySelector("h5.skill-title2").innerHTML = indonesia[2]["skill"]["skillTitle"][2];
+    document.querySelector("h5.skill-title3").innerHTML = indonesia[2]["skill"]["skillTitle"][3];
+    document.getElementById("caption").innerHTML = indonesia[2]["skill"]["addCaption"][0];
+    document.getElementById("caption1").innerHTML = indonesia[2]["skill"]["addCaption"][1];
     document.querySelector("p.skill-text").innerHTML = indonesia[2]["skill"]["skillText"][0];
     document.querySelector("p.skill-text1").innerHTML = indonesia[2]["skill"]["skillText"][1];
     document.querySelector("p.skill-text2").innerHTML = indonesia[2]["skill"]["skillText"][2];
+    document.querySelector("p.skill-text3").innerHTML = indonesia[2]["skill"]["skillText"][3];
+   
     // skill a view
     document.querySelector("td.skill-a-CSS").innerHTML = indonesia[2]["skill"]["skillAView"][0];
     document.querySelector("td.skill-a-Bootstrap").innerHTML = indonesia[2]["skill"]["skillAView"][1];
     document.querySelector("td.skill-a-Tailwind").innerHTML = indonesia[2]["skill"]["skillAView"][2];
+
+    // skill server
+    document.querySelector("td.skill-a-nodejs").innerHTML = indonesia[2]["skill"]["skillServer"][0];
+
     // document.querySelector("p.skill-time").innerHTML = indonesia[2]["skill"]["skillTime"];
     // document.querySelector("p.skill-time1").innerHTML = indonesia[2]["skill"]["skillTime"];
 
@@ -67,6 +76,8 @@ const eng = () => {
     document.querySelector("h5.skill-title").innerHTML = english[2]["skill"]["skillTitle"][0];
     document.querySelector("h5.skill-title1").innerHTML = english[2]["skill"]["skillTitle"][1];
     document.querySelector("h5.skill-title2").innerHTML = english[2]["skill"]["skillTitle"][2];
+    document.querySelector("h5.skill-title3").innerHTML = english[2]["skill"]["skillTitle"][3];
+
     document.querySelector("p.skill-text").innerHTML = english[2]["skill"]["skillText"][0];
     document.querySelector("p.skill-text1").innerHTML = english[2]["skill"]["skillText"][1];
     document.querySelector("p.skill-text2").innerHTML = english[2]["skill"]["skillText"][2];
@@ -74,6 +85,13 @@ const eng = () => {
     document.querySelector("td.skill-a-CSS").innerHTML = english[2]["skill"]["skillAView"][0];
     document.querySelector("td.skill-a-Bootstrap").innerHTML = english[2]["skill"]["skillAView"][1];
     document.querySelector("td.skill-a-Tailwind").innerHTML = english[2]["skill"]["skillAView"][2];
+    document.querySelector("p.skill-text3").innerHTML = english[2]["skill"]["skillText"][3];
+
+    //skill a server
+    document.querySelector("td.skill-a-nodejs").innerHTML = english[2]["skill"]["skillServer"][0];
+
+    document.getElementById("caption").innerHTML = english[2]["skill"]["addCaption"][0];
+    document.getElementById("caption1").innerHTML = english[2]["skill"]["addCaption"][1];
 
     // document.querySelector("p.skill-time").innerHTML = english[2]["skill"]["skillTime"];
     // document.querySelector("p.skill-time1").innerHTML = english[2]["skill"]["skillTime"];

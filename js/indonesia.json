@@ -4,7 +4,7 @@
             "home" : "Beranda",
             "about" : "Tentang Saya",
             "skill" : "Keahlian Saya",
-            "contact" : "Kontak Saya"
+            "contact" : "Saran dan komentar"
         }
     },
     { "about" :
@@ -18,14 +18,16 @@
     { "skill" : 
         {
             "skillMe" : "Keahlian Saya",
-            "skillTitle" : ["Pengembang Web", "Animasi pada Website","Bangun Halaman Responsif"],
-            "skillText" : ["Pengembang web membutuhkan bahasa pemrograman dalam pembuatan. Pengembangan adalah dua hal, pertama adalah bagian depan (user) dan kedua adalah bagian belakang (admin). <br> Gambar di samping, Anda bisa memahami bahasa pemrograman dan fungsinya.", "Anda dapat menambahkan animasi ke situs web Anda untuk UI/UX yang lebih baik. Portofolio situs web saya, menggunakan pustaka dan platform seperti AOS, GSAP, getwaves.io","Teknik atau cara pembuatan layout halaman bertujuan untuk menyesuaikan dengan ukuran layar pengguna. Baik itu ukuran font, user interface, gambar, dan layout akan menyesuaikan dengan layar yang digunakan."],
-            "skillAView" : ["CSS digunakan untuk mendefinisikan tampilan dokumen HTML serta memisahkan dari struktur dokumen termasuk element seperti layout, warna dan font. Dengan CSS, dokumen HTML lebih menarik dan mudah dibaca.","Bootstrap adalah komponen UI untuk membuat tata letak responsif dengan mudah dan cepat menggunakan HTML, CSS dan JavaScript.","Tailwind adalah sistem desain yang di implementasikan dalam CSS murni. Menurut opini saya, Tailwind mempersingkat tulisan dari CSS murni dengan di implementasikan pada class di element HTML."]
+            "skillTitle" : ["Pengembang Web", "Animasi pada Website","Bangun Halaman Responsif", "Bangun server untuk situs web / aplikasi"],
+            "skillText" : ["Pengembang web membutuhkan bahasa pemrograman dalam pembuatan. Pengembangan adalah dua hal, pertama adalah bagian depan (user) dan kedua adalah bagian belakang (admin). <br> Gambar di samping, Anda bisa memahami bahasa pemrograman dan fungsinya.", "Anda dapat menambahkan animasi ke situs web Anda untuk UI/UX yang lebih baik. Portofolio situs web saya, menggunakan pustaka dan platform seperti AOS, GSAP, getwaves.io","Teknik atau cara pembuatan layout halaman bertujuan untuk menyesuaikan dengan ukuran layar pengguna. Baik itu ukuran font, user interface, gambar, dan layout akan menyesuaikan dengan layar yang digunakan.", "Membangun server pada website / aplikasi penting, karena memungkinan melakukan tugas melibatkan pengolahan dan logika data, penyimpanan, keamanan, serta interaksi dengan pengguna"],
+            "skillAView" : ["CSS digunakan untuk mendefinisikan tampilan dokumen HTML serta memisahkan dari struktur dokumen termasuk element seperti layout, warna dan font. Dengan CSS, dokumen HTML lebih menarik dan mudah dibaca.","Bootstrap adalah komponen UI untuk membuat tata letak responsif dengan mudah dan cepat menggunakan HTML, CSS dan JavaScript.","Tailwind adalah sistem desain yang di implementasikan dalam CSS murni. Menurut opini saya, Tailwind mempersingkat tulisan dari CSS murni dengan di implementasikan pada class di element HTML."],
+            "addCaption" : ["Pengalaman saya dalam membuat tampilan", "Pengalaman saya membangun server"],
+            "skillServer" : ["Nodejs adalah platform runtime JavaScript seperti server dengan memungkinan membuat aplikasi berbasis server yang kuat dan efisien, mengapa efisien ? karena bersifat real time atau berbasis I/O (Input/Output) seperi backend web, API dan server streaming juga menjadi salah satu pilihan populer dalam pengembangan aplikasi modern"]
         }
     },
     { "contact" : 
         {
-            "contactMe" : "Hubungi Saya",
+            "contactMe" : "Berikan saran dan komentar kepada saya",
             "LName" : "Nama",
             "LEmail" : "Alamat Email",
             "LMessage" : "Pesan",

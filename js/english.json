@@ -4,7 +4,7 @@
             "home" : "Home",
             "about" : "About me",
             "skill" : "Skill me",
-            "contact" : "Contact me"
+            "contact" : "Suggestions and comments"
         }
     },
     { "about" :
@@ -18,14 +18,16 @@
     { "skill" : 
         {
             "skillMe" : "My skill",
-            "skillTitle" : ["WEB Developer", "Animation for Website","Build Responsive Page"],
-            "skillText" : ["Web developers need programming languages in creating. development is two things, first is the frond end and second is the back end. <br> Image of the side, you can understand the programming language and its function.", "You can add animations to your website for better UI/UX. Portfolio of my website, using libraries and platforms such as AOS, GSAP, getwaves.io","The technique or method of creating a page layout aims to adjust to the user's screen size. Whether it's the size of the font, the user interface, the images, and the layout will adjust to the screen used."],
-            "skillAView" : ["CSS is used to define the appearance of an HTML document and separate it from the document structure including elements such as layout, colors and fonts. With CSS, HTML documents are more attractive and easier to read.","Bootstrap is a UI component for easily and quickly creating responsive layouts using HTML, CSS and JavaScript.","Tailwind is a design system implemented in pure CSS. In my opinion, Tailwind abbreviates text from pure CSS by implementing a class in an HTML element."] 
+            "skillTitle" : ["WEB Developer", "Animation for Website","Build Responsive Page", "Build servers for websites / applications"],
+            "skillText" : ["Web developers need programming languages in creating. development is two things, first is the frond end and second is the back end. <br> Image of the side, you can understand the programming language and its function.", "You can add animations to your website for better UI/UX. Portfolio of my website, using libraries and platforms such as AOS, GSAP, getwaves.io","The technique or method of creating a page layout aims to adjust to the user's screen size. Whether it's the size of the font, the user interface, the images, and the layout will adjust to the screen used.", "Building servers on websites / applications is important, because it allows performing tasks involving data processing and logic, storage, security, and interaction with users"],
+            "skillAView" : ["CSS is used to define the appearance of an HTML document and separate it from the document structure including elements such as layout, colors and fonts. With CSS, HTML documents are more attractive and easier to read.","Bootstrap is a UI component for easily and quickly creating responsive layouts using HTML, CSS and JavaScript.","Tailwind is a design system implemented in pure CSS. In my opinion, Tailwind abbreviates text from pure CSS by implementing a class in an HTML element."],
+            "addCaption" : ["My experience in creating views", "My experience building servers"],
+            "skillServer" : ["Nodejs is a server-like JavaScript runtime platform with the possibility of creating powerful and efficient server-based applications, why efficient ? because they are real time or based on I/O (Input/Output) such as web backends, APIs and streaming servers are also one of the popular choices in modern application development."]
         }
     },
     { "contact" : 
         {
-            "contactMe" : "Contact Me",
+            "contactMe" : "Give me suggestions and comments",
             "LName" : "Name",
             "LEmail" : "Email addres",
             "LMessage" : "Message",
