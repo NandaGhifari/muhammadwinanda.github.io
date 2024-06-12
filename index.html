@@ -54,6 +54,9 @@
                     <a class="nav-link skill" href="#skill"><b>Skill me</b></a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link project" href="#project"><b>Project partners</b></a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link contact" href="#contact"><b>Suggestions and comments</b></a>
                   </li>
                 </ul>
@@ -285,8 +288,35 @@
               
             </div>
           </section>
-          
 
+          <!-- project -->
+          <section id="project">
+            <div class="container fw-bold pt-5">
+              <div data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">
+              <h2 class="text-center skillMe">
+                <b class="listProject">Partner support on the project me and team IT SaLi</b>
+              </h2>
+              </div>
+
+              <div class="row mt-5">
+                <div class="card mb-3">
+                  <div class="row align-items-center">
+                    <div class="col">
+                      <img src="/image/project/Blue Minimalist Health Logo.png" alt="pengaduan" class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    </div>
+                    <div class="col">
+                      Sistem informasi apotik
+                    </div>
+                    <div class="col">
+                      SIMRS dan E-RM
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          
           <!-- Suggestions and comments -->
           <section id="contact">
             <div class="container pt-5">
@@ -393,5 +423,63 @@ once : true,
       gsap.to('.lead', {duration: 3, delay: 1, text: 'Muhammad Winanda, S.Kom', ease: 'power3'});
       gsap.to('.lead-two', {duration: 3.5, delay: 1, text: 'Web Developer | Digital Marketing', ease: 'power3'});
     </script>
+
+
+    <!-- Modal app pengaduan -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title judulPengaduan" id="exampleModalLabel">Complaint information system at the hospital</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h6 class="penjelasanPengaduan">This application was created using the multi-page application (MPA) method and account Telegram bot</h6>
+            <div class="row align-items-center mt-3">
+              <div class="col">
+                <ul class="list-group">
+                  <h6 class="listPermasalahanPengaduan">Problem</h6>
+                  <li class="list-group-item item1PermasalahanPengaduan">1. In the complaint there is no documentation and tracking list</li>
+                  <li class="list-group-item item2PermasalahanPengaduan">2. Lack of information about the transparency of data</li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-group">
+                  <h6 class="listSolusiPengaduan">Solution</h6>
+                  <li class="list-group-item item1SolusiPengaduan">1. Openness of information to users</li>
+                  <li class="list-group-item item2SolusiPengaduan">2. Tracking list information during repairs</li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-group">
+                  <h6 class="listAplikasiPengaduan">Application development</h6>
+                  <li class="list-group-item item1Pengaduan">1. Website as data validation admin</li>
+                  <li class="list-group-item item2Pengaduan">2. Telegram application as a user for reporting and tracking data</li>
+                  <li class="list-group-item item3Pengaduan">3. SQL as a database, built on a separate/dedicated server</li>
+                  <li class="list-group-item item4Pengaduan">4. From these 3 points the server is managed on our server hardware</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4">
+              <h6 class="text-center dokumentasiPengaduan">Project documentation</h6>
+              <div class="container overflow-hidden">
+                <div class="row gx-5">
+                  <div class="col">
+                   <div class="p-3 border bg-light">
+                    <img src="./image/project/project_1/adminWebTele.png" class="img-fluid" alt="webAdminTele" srcset="">
+                   </div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3 border bg-light">
+                      <img src="./image/project/project_1/teleUser.jpg" alt="teleUser" class="img-thumbnail">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
   </body>
 </html>

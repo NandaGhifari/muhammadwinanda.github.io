@@ -4,6 +4,7 @@
             "home" : "Home",
             "about" : "About me",
             "skill" : "Skill me",
+            "project" : "Project partners",
             "contact" : "Suggestions and comments"
         }
     },
@@ -23,6 +24,27 @@
             "skillAView" : ["CSS is used to define the appearance of an HTML document and separate it from the document structure including elements such as layout, colors and fonts. With CSS, HTML documents are more attractive and easier to read.","Bootstrap is a UI component for easily and quickly creating responsive layouts using HTML, CSS and JavaScript.","Tailwind is a design system implemented in pure CSS. In my opinion, Tailwind abbreviates text from pure CSS by implementing a class in an HTML element."],
             "addCaption" : ["My experience in creating views", "My experience building servers"],
             "skillServer" : ["Nodejs is a server-like JavaScript runtime platform with the possibility of creating powerful and efficient server-based applications, why efficient ? because they are real time or based on I/O (Input/Output) such as web backends, APIs and streaming servers are also one of the popular choices in modern application development."]
+        }
+    },
+    { "project" : 
+        {
+            "listProject" : "Partner support on the project me and team IT SaLi",
+            "modalAplikasiPengaduan" : {
+                "judul" : "Complaint information system at the hospital",
+                "penjelasan" : "This application was created using the multi-page application (MPA) method and account Telegram bot",
+                "listPermasalahan" : "Problem",
+                "item1Permasalahan" : "1. In the complaint there is no documentation and tracking list",
+                "item2Permasalahan" : "2. Lack of information about the transparency of data",
+                "listSolusi" : "Solution",
+                "item1Solusi" : "1. Openness of information to users",
+                "item2Solusi" : "2. Tracking list information during repairs",
+                "listAplikasi" : "Application development",
+                "item1Pengaduan" : "1. Website as data validation admin",
+                "item2Pengaduan" : "2. Telegram application as a user for reporting and tracking data",
+                "item3Pengaduan" : "3. SQL as a database, built on a separate/dedicated server",
+                "item4Pengaduan" : "4. From these 3 points the server is managed on our server hardware",
+                "dokumentasi" : "Project documentation"
+            }
         }
     },
     { "contact" : 

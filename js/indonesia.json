@@ -4,6 +4,7 @@
             "home" : "Beranda",
             "about" : "Tentang Saya",
             "skill" : "Keahlian Saya",
+            "project" : "Mitra Projek",
             "contact" : "Saran dan komentar"
         }
     },
@@ -23,6 +24,27 @@
             "skillAView" : ["CSS digunakan untuk mendefinisikan tampilan dokumen HTML serta memisahkan dari struktur dokumen termasuk element seperti layout, warna dan font. Dengan CSS, dokumen HTML lebih menarik dan mudah dibaca.","Bootstrap adalah komponen UI untuk membuat tata letak responsif dengan mudah dan cepat menggunakan HTML, CSS dan JavaScript.","Tailwind adalah sistem desain yang di implementasikan dalam CSS murni. Menurut opini saya, Tailwind mempersingkat tulisan dari CSS murni dengan di implementasikan pada class di element HTML."],
             "addCaption" : ["Pengalaman saya dalam membuat tampilan", "Pengalaman saya membangun server"],
             "skillServer" : ["Nodejs adalah platform runtime JavaScript seperti server dengan memungkinan membuat aplikasi berbasis server yang kuat dan efisien, mengapa efisien ? karena bersifat real time atau berbasis I/O (Input/Output) seperi backend web, API dan server streaming juga menjadi salah satu pilihan populer dalam pengembangan aplikasi modern"]
+        }
+    },
+    { "project" : 
+        {
+            "listProject" : "Dukungan mitra pada proyek saya dan tim IT SaLi",
+            "modalAplikasiPengaduan" : {
+                "judul" : "Sistem informasi pengaduan pada rumah sakit",
+                "penjelasan" : "Aplikasi ini dibuat menggunakan metode multi-page application (MPA) dan akun bot Telegram",
+                "listPermasalahan" : "Permasalahan",
+                "item1Permasalahan" : "1. Pada pengaduan tidak ada dokumentasi dan list tracking",
+                "item2Permasalahan" : "2. Kurangnya informasi keterbukaan suatu data",
+                "listSolusi" : "Solusi",
+                "item1Solusi" : "1. Keterbukaan informasi kepada pengguna",
+                "item2Solusi" : "2. Informasi list tracking saat perbaikan",
+                "listAplikasi" : "Pengembengan aplikasi",
+                "item1Pengaduan" : "1. Website sebagai admin validasi data",
+                "item2Pengaduan" : "2. Aplikasi telegram sebagai pengguna pelaporan dan tracking data",
+                "item3Pengaduan" : "3. SQL sebagai database, dibangun dengan server terpisah/khusus",
+                "item4Pengaduan" : "4. Dari 3 poin tersebut server dikelola pada hardware server milik kami",
+                "dokumentasi" : "Dokumentasi proyek"
+            }
         }
     },
     { "contact" : 

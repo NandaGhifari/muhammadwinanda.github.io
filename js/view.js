@@ -7,10 +7,12 @@ const indo = () => {
     const home = document.querySelector("a.home");
     const about = document.querySelector("a.about");
     const skill = document.querySelector("a.skill");
+    const project = document.querySelector("a.project");
     const contact = document.querySelector("a.contact");
     home.innerHTML = indonesia[0]["menu"]["home"];
     about.innerHTML = indonesia[0]["menu"]["about"];
     skill.innerHTML = indonesia[0]["menu"]["skill"];
+    project.innerHTML = indonesia[0]["menu"]["project"];
     contact.innerHTML = indonesia[0]["menu"]["contact"];
     
     document.querySelector("h2.aboutMe").innerHTML = indonesia[1]["about"]["aboutMe"];
@@ -44,11 +46,39 @@ const indo = () => {
     // document.querySelector("p.skill-time").innerHTML = indonesia[2]["skill"]["skillTime"];
     // document.querySelector("p.skill-time1").innerHTML = indonesia[2]["skill"]["skillTime"];
 
-    document.querySelector('h2.contactMe').innerHTML = indonesia[3]["contact"]["contactMe"];
-    document.querySelector('label.LName').innerHTML = indonesia[3]["contact"]["LName"];
-    document.querySelector('label.LEmail').innerHTML = indonesia[3]["contact"]["LEmail"];
-    document.querySelector('label.LMessage').innerHTML = indonesia[3]["contact"]["LMessage"];
-    document.querySelector('div.my-alert').innerHTML = indonesia[3]["contact"]["my-alert"];
+    // Project me
+    document.querySelector('.listProject').innerHTML = indonesia[3].project.listProject;
+    // modal Aplikasi Pengaduan
+    document.querySelector('.judulPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.judul;
+      // Keluhan
+      document.querySelector('.penjelasanPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.penjelasan;
+      document.querySelector('.listPermasalahanPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.listPermasalahan;
+      document.querySelector('.item1PermasalahanPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item1Permasalahan;
+      document.querySelector('.item2PermasalahanPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item2Permasalahan
+      // end Keluhan
+      // Solusi
+      document.querySelector('.listSolusiPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.listSolusi;
+      document.querySelector('.item1SolusiPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item1Solusi;
+      document.querySelector('.item2SolusiPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item2Solusi;
+      // end
+      // dev Aplikasi
+      document.querySelector('.listAplikasiPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.listAplikasi;
+      document.querySelector('.item1Pengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item1Pengaduan;
+      document.querySelector('.item2Pengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item2Pengaduan;
+      document.querySelector('.item3Pengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item3Pengaduan;
+      document.querySelector('.item4Pengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.item4Pengaduan;
+      // end
+      // Dokumentasi
+      document.querySelector('.dokumentasiPengaduan').innerHTML = indonesia[3].project.modalAplikasiPengaduan.dokumentasi;
+
+
+    // fitur Komentar
+    document.querySelector('h2.contactMe').innerHTML = indonesia[4]["contact"]["contactMe"];
+    document.querySelector('label.LName').innerHTML = indonesia[4]["contact"]["LName"];
+    document.querySelector('label.LEmail').innerHTML = indonesia[4]["contact"]["LEmail"];
+    document.querySelector('label.LMessage').innerHTML = indonesia[4]["contact"]["LMessage"];
+    document.querySelector('div.my-alert').innerHTML = indonesia[4]["contact"]["my-alert"];
+
   });
 }
 
@@ -57,10 +87,12 @@ const eng = () => {
     const home = document.querySelector("a.home");
     const about = document.querySelector("a.about");
     const skill = document.querySelector("a.skill");
+    const project = document.querySelector("a.project");
     const contact = document.querySelector("a.contact");
     home.innerHTML = english[0]["menu"]["home"];
     about.innerHTML = english[0]["menu"]["about"];
     skill.innerHTML = english[0]["menu"]["skill"];
+    project.innerHTML = english[0]["menu"]["project"];
     contact.innerHTML = english[0]["menu"]["contact"];
 
     const aboutMe = document.querySelector("h2.aboutMe");
@@ -96,12 +128,37 @@ const eng = () => {
     // document.querySelector("p.skill-time").innerHTML = english[2]["skill"]["skillTime"];
     // document.querySelector("p.skill-time1").innerHTML = english[2]["skill"]["skillTime"];
 
-    const test =  document.querySelector('h2.contactMe').innerHTML = english[3]["contact"]["contactMe"];
-    console.log(test);
-    document.querySelector('label.LName').innerHTML = english[3]["contact"]["LName"];
-    document.querySelector('label.LEmail').innerHTML = english[3]["contact"]["LEmail"];
-    document.querySelector('label.LMessage').innerHTML = english[3]["contact"]["LMessage"];
-    document.querySelector('div.my-alert').innerHTML = english[3]["contact"]["my-alert"];
+
+    // Project me
+    document.querySelector('.listProject').innerHTML = english[3].project.listProject;
+    // modal Aplikasi Pengaduan
+    document.querySelector('.judulPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.judul;
+      // Keluhan
+      document.querySelector('.penjelasanPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.penjelasan;
+      document.querySelector('.listPermasalahanPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.listPermasalahan;
+      document.querySelector('.item1PermasalahanPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item1Permasalahan;
+      document.querySelector('.item2PermasalahanPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item2Permasalahan
+      // end Keluhan
+      // Solusi
+      document.querySelector('.listSolusiPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.listSolusi;
+      document.querySelector('.item1SolusiPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item1Solusi;
+      document.querySelector('.item2SolusiPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item2Solusi;
+      // end
+      // dev Aplikasi
+      document.querySelector('.listAplikasiPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.listAplikasi;
+      document.querySelector('.item1Pengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item1Pengaduan;
+      document.querySelector('.item2Pengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item2Pengaduan;
+      document.querySelector('.item3Pengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item3Pengaduan;
+      document.querySelector('.item4Pengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.item4Pengaduan;
+      // end
+      // Dokumentasi
+      document.querySelector('.dokumentasiPengaduan').innerHTML = english[3].project.modalAplikasiPengaduan.dokumentasi;
+
+    document.querySelector('h2.contactMe').innerHTML = english[4]["contact"]["contactMe"];
+    document.querySelector('label.LName').innerHTML = english[4]["contact"]["LName"];
+    document.querySelector('label.LEmail').innerHTML = english[4]["contact"]["LEmail"];
+    document.querySelector('label.LMessage').innerHTML = english[4]["contact"]["LMessage"];
+    document.querySelector('div.my-alert').innerHTML = english[4]["contact"]["my-alert"];
   });
 }
 
